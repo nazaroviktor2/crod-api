@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.SmenaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+  <TextView
+      android:id="@+id/smena_fragment_nameSmena"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:layout_marginHorizontal="15dp"
+      android:gravity="center"
+      android:text="Смена"
+      android:textSize="24dp"
+      android:padding="7dp"
+      android:background="@drawable/krugliye_ugli"/>
+        <TextView
+            android:id="@+id/smena_fragment_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="15dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Даты смены"
+            android:padding="7dp"
+            android:background="@drawable/krugliye_ugli"
+            />
+    <ListView
+        android:id="@+id/smena_fragment_ListV_tutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:padding="7dp"
+        android:background="@drawable/backgraund_btn"
+        ></ListView>
+
+        <ListView
+            android:id="@+id/smena_fragment_ListV_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="7dp"
+            android:background="@drawable/backgraund_btn">
+
+        </ListView>
+</LinearLayout>
+</FrameLayout>

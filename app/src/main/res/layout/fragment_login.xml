@@ -1,0 +1,77 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/login_name_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginVertical="75dp"
+        android:gravity="center"
+        android:text="@string/login_name_app"
+        android:textColor="@color/colorBlack"
+        android:textSize="80dp" />
+
+    <EditText
+        android:id="@+id/login_editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/krugliye_ugli"
+        android:inputType="textEmailAddress"
+        android:hint="@string/login_email"
+        android:textSize="25dp"
+        android:padding="12dp"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/login_editText_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/krugliye_ugli"
+        android:inputType="textPassword"
+        android:hint="@string/login_pass"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:textSize="25sp"
+        android:padding="12dp"
+        android:importantForAutofill="no" />
+    <Button
+
+        android:id="@+id/login_btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/backgraund_btn"
+        android:text="@string/login_btn_login"
+        android:layout_marginVertical="15dp"
+        android:paddingHorizontal="20dp"
+        android:textSize="35sp"
+        />
+    <Button
+        android:id="@+id/login_btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/backgraund_btn"
+        android:text="@string/login_btn_reg"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="35dp"
+        android:paddingHorizontal="20dp"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "534578969573",
+    "firebase_url": "https://crod-v-01.firebaseio.com",
+    "project_id": "crod-v-01",
+    "storage_bucket": "crod-v-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534578969573:android:bbe5de6a6c551c30",
+        "android_client_info": {
+          "package_name": "com.example.crodv01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534578969573-6nq19d8st751bollpsknu6bahipoos0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWYAI6xq5xg2Mjlkaqff__ra6Li48PX4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534578969573-6nq19d8st751bollpsknu6bahipoos0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
